@@ -1,3 +1,6 @@
 git init für den start
 git add <file> oder "." für alle dateien
 git commit -m "your commit message"
+git reset --soft HEAD~1         = holt den letzten commit mit änderungen zurück in staged
+git reset --mixed HEAD~1        = holt den letzten commit mit änderungen zurück in die entsprechenden Dateien (nicht im staged)
+git reset --hard HEAD~1         = entfernt jegliche änderungen vom letzten commit
